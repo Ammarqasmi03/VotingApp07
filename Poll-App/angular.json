@@ -6,7 +6,7 @@
   },
   "newProjectRoot": "projects",
   "projects": {
-    "Poll-Appliaction": {
+    "Poll-App": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:class": {
@@ -81,10 +81,10 @@
           "builder": "@angular/build:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "Poll-Appliaction:build:production"
+              "buildTarget": "Poll-App:build:production"
             },
             "development": {
-              "buildTarget": "Poll-Appliaction:build:development"
+              "buildTarget": "Poll-App:build:development"
             }
           },
           "defaultConfiguration": "development"
